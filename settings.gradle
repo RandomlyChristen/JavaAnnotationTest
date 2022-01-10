@@ -1,0 +1,3 @@
+rootProject.name = 'AnnotationTest'
+include 'my_annotation'
+include 'my_processor'

@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':my_annotation')
+    annotationProcessor project(':my_processor')
+}
